@@ -1,3 +1,4 @@
+
 .logo {
     height: 46px;
     width: auto; /* 위에서 지정해준 높이에 맞게 넓이를 자동으로 맞추어주는 속성 */
@@ -67,4 +68,81 @@
     margin: auto;
     width: 100%;
     display: flex;
+}
+.feed {
+    width: 1120px;
+    height: 800px;
+    position: static;
+    margin: auto;
+}
+
+.feed_inner {
+    width: 100%;
+    height: 100%;
+    margin: 20px, 50px;
+    padding: 50px 70px;
+    box-sizing: border-box;
+}
+
+.userid {
+    width: 600px;
+    height: 60px;
+    margin-top: 77px;
+    border: solid lightgray 1px;
+}
+.userid_inner{
+    padding-top: 5px;
+    padding-left: 40px;
+    text-align: left;
+    font-family: 'Rubik';
+    font-weight: bold;
+}
+
+.article_img {
+    width: 600px;
+    height: 400px;
+    border-bottom: 1px solid lightgrey;
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+}
+
+.article_button {
+    width: 600px;
+    height: 40px;
+    border: 1px solid lightgrey;
+}
+
+.like_button {
+    width: 20px;
+    height: 20px;
+    padding: 10px 20px;
+}
+
+.comment {
+    width: 600px;
+    height: 50px;
+    border-bottom: 1px solid lightgrey;
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+}
+
+.comment_box {
+    width: 420px;
+    height: 15px;
+    border: white;
+    margin: 15px 20px;
+}
+
+.submit_button {
+    width: 70px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    margin: 15px 10px;
+    border: white 1px solid;
+    font-size: 14px;
+}
+
+.submit_button:hover {
+    border: skyblue 1px solid;
 }
